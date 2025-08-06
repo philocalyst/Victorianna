@@ -1,0 +1,16 @@
+fontform = "slab"
+license = "OFL"
+published = 2017
+foundry = "Velvetyne"
+family = "Victorianna"
+summary = "Thin roman & italic font, inspired by english victorian types. Thin roman: 3 titling styles on caps, ligatures on lower cases. Thin italic: many ligatures on lower cases. Originally drawn by Sébastien Hayez, then developed by Jérémy Landes."
+links = "http://velvetyne.fr/fonts/victorianna/"
+
+[[contributor]]
+name = "Sébastien Hayez"
+email = "hayezsebastien@hotmail.com"
+
+[[contributor]]
+name = "Jérémy Landes"
+email = "jeremy@studiotriple.fr"
+website = "http://www.studiotriple.fr"
