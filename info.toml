@@ -5,6 +5,8 @@ foundry = "Velvetyne"
 family = "Victorianna"
 summary = "Thin roman & italic font, inspired by english victorian types. Thin roman: 3 titling styles on caps, ligatures on lower cases. Thin italic: many ligatures on lower cases. Originally drawn by Sébastien Hayez, then developed by Jérémy Landes."
 links = "http://velvetyne.fr/fonts/victorianna/"
+copyright = "Copyright (c) 2014-2017, Sébastien Hayez <hayezsebastien@hotmail.com> & Jérémy Landes <jeremy@studiotriple.fr>"
+trademarks = "Victorianna is a trademark of Velvetyne Type Foundry."
 
 [[contributor]]
 name = "Sébastien Hayez"
