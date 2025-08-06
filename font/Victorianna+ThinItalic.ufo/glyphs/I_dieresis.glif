@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Idieresis" format="2">
+  <advance width="574"/>
+  <unicode hex="00CF"/>
+  <outline>
+    <contour>
+      <point x="393" y="1788" type="line"/>
+      <point x="393" y="1950" type="line"/>
+      <point x="431" y="1950" type="line"/>
+      <point x="431" y="1788" type="line"/>
+    </contour>
+    <contour>
+      <point x="629" y="1788" type="line"/>
+      <point x="629" y="1950" type="line"/>
+      <point x="667" y="1950" type="line"/>
+      <point x="667" y="1788" type="line"/>
+    </contour>
+    <contour>
+      <point x="620" y="1574" type="line"/>
+      <point x="769" y="1574" type="line"/>
+      <point x="769" y="1612" type="line"/>
+      <point x="443" y="1612" type="line"/>
+      <point x="443" y="1574" type="line"/>
+      <point x="580" y="1574" type="line"/>
+      <point x="109" y="38" type="line"/>
+      <point x="-40" y="38" type="line"/>
+      <point x="-40" y="0" type="line"/>
+      <point x="287" y="0" type="line"/>
+      <point x="287" y="38" type="line"/>
+      <point x="149" y="38" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>1788</integer>
+            <key>width</key>
+            <integer>162</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>287</integer>
+            <key>width</key>
+            <integer>144</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>629</integer>
+            <key>width</key>
+            <integer>38</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

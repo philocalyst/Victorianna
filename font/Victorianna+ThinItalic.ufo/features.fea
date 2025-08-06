@@ -1,0 +1,92 @@
+languagesystem DFLT dflt;
+
+
+# GSUB 
+
+
+lookup onumOldstyleFigureslookup0 {
+  lookupflag 0;
+    sub \zero by \zero.op ;
+    sub \one by \one.op ;
+    sub \two by \two.op ;
+    sub \three by \three.op ;
+    sub \four by \four.op ;
+    sub \five by \five.op ;
+    sub \six by \six.op ;
+    sub \seven by \seven.op ;
+    sub \eight by \eight.op ;
+    sub \nine by \nine.op ;
+} onumOldstyleFigureslookup0;
+
+lookup lnumLiningFigureslookup1 {
+  lookupflag 0;
+    sub \zero.op by \zero ;
+    sub \one.op by \one ;
+    sub \two.op by \two ;
+    sub \three.op by \three ;
+    sub \four.op by \four ;
+    sub \five.op by \five ;
+    sub \six.op by \six ;
+    sub \seven.op by \seven ;
+    sub \eight.op by \eight ;
+    sub \nine.op by \nine ;
+} lnumLiningFigureslookup1;
+
+lookup ligaStandardLigatureslookup2 {
+  lookupflag 0;
+    sub \f \f  by \ff;
+    sub \f \l  by \fl;
+    sub \f \f \i  by \ffi;
+    sub \f \i  by \fi;
+} ligaStandardLigatureslookup2;
+
+lookup dligDiscretionaryLigatureslookup3 {
+  lookupflag 0;
+    sub \c \b  by \c_b;
+    sub \s \b  by \s_b;
+    sub \s \h  by \s_h;
+    sub \s \k  by \s_k;
+    sub \s \l  by \s_l;
+    sub \s \t  by \s_t;
+    sub \c \t  by \c_t;
+    sub \c \l  by \c_l;
+    sub \c \k  by \c_k;
+    sub \c \h  by \c_h;
+    sub \w \w \w  by \w_w_w;
+    sub \o \o  by \o_o;
+    sub \a \s  by \a_s;
+    sub \i \s  by \i_s;
+    sub \n \s  by \n_s;
+    sub \t \s  by \t_s;
+    sub \u \s  by \u_s;
+    sub \s \s  by \s_s;
+    sub \z \z  by \z_z;
+} dligDiscretionaryLigatureslookup3;
+
+feature onum {
+
+ script DFLT;
+     language dflt ;
+      lookup onumOldstyleFigureslookup0;
+} onum;
+
+feature lnum {
+
+ script DFLT;
+     language dflt ;
+      lookup lnumLiningFigureslookup1;
+} lnum;
+
+feature liga {
+
+ script DFLT;
+     language dflt ;
+      lookup ligaStandardLigatureslookup2;
+} liga;
+
+feature dlig {
+
+ script DFLT;
+     language dflt ;
+      lookup dligDiscretionaryLigatureslookup3;
+} dlig;
